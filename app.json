@@ -1,26 +1,26 @@
 {
-    "name": "Renamer Bot 4GB",
+    "name": "Renamer VS Bot 4GB",
     "description": "Telegram File Renamer Bot 4GB",
     "logo": "https://graph.org/file/2c62c5c158d42b0dc8deb.jpg",
     "keywords": ["Premium Rename Bot", "Renamer Bot 4GB", "Mongo DB"],    
-    "repository": "https://github.com/JishuDeveloper/Rename-Bot-4GB",
+    "repository": "https://github.com/vamsi899/Rename-Bot-4GB-VS",
     
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": "",
+            "value": "23647104",
             "required": true
         },
         
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": "",
+            "value": "5df7d126ac228cb062a833bcc8c50bcd",
             "required": true
         },
         
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": "",
+            "value": "7672085347:AAEiOie3st0Wd-1I6n_ulTZu0wIIvmjAbmo",
             "required": true
         },
         
@@ -38,25 +38,25 @@
         
         "FORCE_SUB": {
             "description": "Your Force Subscribe Channel Username Without @",
-            "value": "",
+            "value": "Cartoonworldtelugu_india",
             "required": false 
         },
         
         "LOG_CHANNEL": {
             "description":"Bot Logs Channel To Sending User Data & 4GB Premium Client To Use, Id Must Startswith -100",
-            "value": "",
+            "value": "-1002752116975",
             "required": true          
         },
         
         "DATABASE_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": "",
+            "value": "mongodb+srv://anjireddyb885:MvL27Den1lu7TURr@cluster0.al34wge.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             "required": true
         },
         
         "DATABASE_NAME":{ 
             "description":"Your Mongo DB Database Name",
-            "value": "JishuBotz",
+            "value": "Cluster0",
             "required": false
         },
         
